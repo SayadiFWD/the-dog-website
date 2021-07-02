@@ -51,7 +51,7 @@ class App extends Component {
         </select>
         <div className="dog-image">
           {this.state.images.map((image) => (
-            <img className="images" width="800px" src={image} />
+            <img className="images" width="800px" src={image} alt="images" />
           ))}
         </div>
       </div>
